@@ -37,7 +37,7 @@ void loop()
    motor_control();
 }
 
-void read_sensor_values()
+void read_sensor_values()//interpolation
 {
   s[0]=analogRead(A0);
   s[1]=analogRead(A1);
